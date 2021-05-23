@@ -1,0 +1,9 @@
+---
+- include_vars: "{{ ansible_distribution }}.yml"
+
+- name: Codecs
+  tags: packages,workstation-packages
+  package:
+    name: "{{codecs}}"
+    state: latest
+...

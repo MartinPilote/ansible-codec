@@ -1,0 +1,14 @@
+---
+codecs:
+  - gst-plugins-base
+  - gst-plugins-good
+  - gst-plugins-bad
+  - gst-plugins-ugly
+  - ffmpeg
+  - intel-media-driver
+  - libva
+  - libva-intel-driver
+  - libva-vdpau-driver
+  - libva-utils
+  - gst-libav
+...
